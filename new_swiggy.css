@@ -1,0 +1,330 @@
+*{
+    font-family: monospace;
+    margin: 0;
+    border: border-box;
+}
+.firstpage{
+    display: flex;
+}
+.onehalf{
+    background-color: white;
+    height: 500px;
+    width: 790px;
+    padding: 60px 0px 0px 44px;
+}
+.twohalf{
+    background-color: grey;
+    height: 500px;
+    width: 650px;
+    background-image: url("bir2.jpg");
+    background-size: cover;
+    padding-top: 60px;
+    
+}
+.three{
+    height: 100px;
+    width: 650px;
+    background-color: white;
+    display: flex;
+    margin-left: 100px;
+}
+.slogo{
+    background-image: url("Swiggy_logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 200px;
+    margin-top: 10px;
+}
+.login{
+    padding-left: 240px;
+    padding-top: 20px;
+}
+.login a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 28px;
+}
+a:hover{
+    color: rgb(216, 107, 4);
+}
+button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 110px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+
+}
+.four{
+    height: 150px;
+    width: 650px;
+    padding-top: 100;
+    background-color: white;
+    margin-left: 100px;
+    font-size: 24px;
+    color: black;
+    justify-content: center;
+    
+}
+.four h4{
+    font-weight: 200;
+    color: rgb(96, 96, 96);
+}
+.four h1{
+    padding-top: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: rgb(2, 34, 52);
+}
+.five{
+    height: 60px;
+    width: 650px;
+    margin-left: 100px;
+    background-color: rgb(220, 110, 25);
+    margin-bottom: 23px;
+}
+.five button{
+    height: 58px;
+    width: 135px;
+    padding-bottom: 4px;
+    color: white;
+    background-color: rgb(220, 110, 25);
+    border: none;
+
+}
+.search{
+    height: 55px;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 700;
+    border-color: rgb(243, 139, 3);
+    box-shadow: 0px 3px 5px  rgb(243, 211, 150);
+}
+.six{
+    height: 100px;
+    width: 650px;
+    padding-top: 250;
+    background-color: white;
+    padding-bottom: 2px;
+    margin-left: 100px;
+    color: #686b78;
+}
+.six h3{
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+/** second page styling**/
+.secondpage{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(53, 40, 31);
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+/** box1**/
+.secondpage h4{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.secondpage p{
+    color:  #e0cbc1;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.img1{
+    height: 325px;
+    width: 260px;
+    background-color: rgb(53, 40, 31);
+}
+.box11{
+    height:199px;
+    width: 105px;
+    background-color: rgb(53, 40, 31);
+    background-image: url("image3.webp");
+    background-size: cover;
+    margin-left: 75px;
+    margin-bottom: 42px;
+    
+}
+.img2{
+    height: 325px;
+    width: 260px;
+    background-color: rgb(53, 40, 31);
+}
+.box2{
+    height:199px;
+    width: 105px;
+    background-color:rgb(53, 40, 31) ;
+    background-image: url("image4.webp");
+    background-size: cover;
+    margin-left: 75px;
+    margin-bottom: 42px;
+}
+.img3{
+    height: 325px;
+    width: 260px;
+    background-color: rgb(53, 40, 31);
+}
+.box3{
+    height:199px;
+    width: 105px;
+    background-color:rgb(53, 40, 31) ;
+    background-image: url("image2.webp");
+    background-size: cover;
+    margin-left: 75px;
+    margin-bottom: 42px;
+}
+/** third page styling**/
+.thirdpage{
+    height: 520px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.house1{
+    height: 520px;
+    width: 500px;
+}
+.house2{
+    background-image: url("phone_image5.webp");
+    background-size: cover;
+    height: 500px;
+    width: 385px;
+
+}
+.house3{
+    background-image: url("phone_image6.webp");
+    background-size: cover;
+    height: 500px;
+    width: 385px;
+    padding-right: 0;
+}
+.owner1{
+    font-size: 40px;
+    color: rgb(5, 47, 57);
+    font-weight: 700;
+    height: 80px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 0 10px 100px;
+}
+.owner2{
+    color: #7c7f8b;
+    font-size: 18px;
+    padding: 30px 0 0 100px;
+    font-weight: 200;
+    
+}
+.owner3{
+    padding: 80px 0 0 100px;
+    height: 58px;
+    width: 400px;
+}
+.click1{
+    background-image: url("playstore_image.webp");
+    background-size: cover;
+    height: 50px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+
+}
+.click2{
+    background-image: url("ios_logo.webp");
+    background-size: cover;
+    height: 50px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+}
+
+/**footer**/
+.lastsec1{
+    height: 400px;
+    width: 100%;
+    padding: 0 0 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid gray;
+}
+
+.list1{
+    padding: 50px 20px 0px 50px;
+}
+.lastsec1 a{
+    display: block;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.lastsec1 p{
+    font-size: 15px;
+    color: #686b78;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.list2{
+    padding: 50px 20px 0px 50px;
+}
+.list3{
+    padding: 50px 20px 0px 50px;
+}
+
+
+
+/** bottom most part**/
+
+.lastsec2{
+    height: 70px;
+    padding: 20px 0;
+    background-color: black;
+    justify-content: space-evenly;
+    color: white;
+    display: flex;
+}
+.lastpannel{
+    justify-content: space-evenly;
+    display: flex;   
+}
+.lp1{
+    background-image: url("logo_image1.webp");
+    background-size: cover;
+    height: 35px;
+    width:170px;
+    padding-top: 15px;
+}
+.lp2{
+    font-size: 20px;
+    height: 40px;
+    width: 750px;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.lp3{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
